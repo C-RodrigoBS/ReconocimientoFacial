@@ -3,7 +3,7 @@ import os
 import imutils
 
 personName = 'Daniel'
-dataPath = 'C:/Users/Daniel/Desktop/reconocimiento/OmesTutorials2020/6 RECONOCIMIENTO FACIAL/Data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'C:/Users/Daniel/Desktop/gittecsup\ReconocimientoFacial/reconocimiento facial/Data' #Cambia a la ruta donde hayas almacenado Data
 personPath = dataPath + '/' + personName
 
 if not os.path.exists(personPath):
